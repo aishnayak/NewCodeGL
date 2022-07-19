@@ -1,0 +1,11 @@
+package com.globallogic.hello;
+
+public class AlhaberLoop {
+  
+	public static void main (String args[]) {
+		char alphabet;
+		
+		for(alphabet='A';alphabet<='z';alphabet++)
+			System.out.println(alphabet + " ");
+	}
+}

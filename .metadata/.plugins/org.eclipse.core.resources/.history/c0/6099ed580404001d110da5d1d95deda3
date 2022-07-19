@@ -1,0 +1,23 @@
+package com.globallogicDay3.com;
+
+class BaseClass {
+	void printBase(){
+		System.out.println("Base Class");
+	}
+}
+
+class ChildClass extends BaseClass{
+	void printChild() {
+		System.out.println("Child Class");
+	}
+}
+
+public class SingleInheritence {
+	public static void main(String[] args) {
+		ChildClass childClass = new ChildClass();
+		childClass.printChild();
+		childClass.printBase();
+	}
+}
+
+

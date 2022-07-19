@@ -1,0 +1,14 @@
+package com.globallogicDay3.com;
+
+public class Inheritance {
+
+	class A{
+		
+	}
+	class B{
+		
+	}
+	class C{
+		
+	}
+}

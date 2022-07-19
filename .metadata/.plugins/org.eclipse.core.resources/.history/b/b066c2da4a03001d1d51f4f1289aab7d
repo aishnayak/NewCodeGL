@@ -1,0 +1,20 @@
+//Java program to calculate a Factorial of a number
+package com.globallogic.hello;
+import java.util.Scanner;
+public class FactorialForLoop {
+	
+	public static void main(String args[]) {
+
+		 Scanner sc = new Scanner(System.in);
+		int i,fact=1;
+		
+		
+		for(i=1;i<=50;) {
+			
+			fact=fact*1;
+			i++;
+		}
+		System.out.println("Factorial is" + fact);
+	}
+
+}

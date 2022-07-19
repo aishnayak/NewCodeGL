@@ -1,0 +1,23 @@
+//Java program to calculate a Factorial of a number
+package com.globallogic.hello;
+
+public class FactorialForLoop {
+	
+	public static void main(String args[]) {
+		// int number = 5;
+	      //  int fact = 1;
+	        //for(int i = 1; i <= number; i++)
+	        //{
+	          //  fact = fact * i;
+	        //}
+	       // System.out.println("Factorial of "+number+" is: "+fact);//
+		int n=40;
+		int fact=1;
+		for(int i=1;i<=n;i++) {
+			fact=fact*i;
+			
+		}
+		System.out.println("Factorial of " +n+ " is: "+ fact);
+	     }   
+
+}
